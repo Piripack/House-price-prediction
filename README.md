@@ -90,9 +90,10 @@ pip install pandas
 pip install numpy
 pip install matplotlib
 pip install seaborn
-
+```
 ## Connect with Me
 
 Feel free to reach out or connect with me on [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=social&logo=linkedin)](https://www.linkedin.com/in/awmr/) as **Andre Ramos**. I’m always excited to connect with like-minded professionals and discuss data analytics, machine learning, and other exciting topics.
 
 Check out my LinkedIn profile for more details on my background and projects!
+
