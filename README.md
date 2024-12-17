@@ -2,9 +2,7 @@
 
 ### A Comprehensive Guide to Predictive Analysis in Real Estate, Finance, and Cybersecurity
 
-#### By  
-*Andre Ramos*  
-*Data Analyst*  
+
 
 #### Date  
 *December 2024*  
@@ -13,9 +11,7 @@
 
 ### A Comprehensive Guide to Predictive Analysis in Real Estate, Finance, and Cybersecurity
 
-#### By  
-*Andre Ramos*  
-*Data Analyst*  
+
 
 #### Date  
 *December 2024*  
