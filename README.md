@@ -107,11 +107,63 @@ pip install numpy
 pip install matplotlib
 pip install seaborn
 ```
+
+## Key Code Snippets
+
+### 1. Data Preprocessing
+
+```python
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+
+# Load dataset
+df = pd.read_csv("house_price_data.csv")
+
+# Preprocessing steps
+df.fillna(df.mean(), inplace=True)  # Handle missing data
+
+# Feature and target
+X = df.drop("Price", axis=1)
+y = df["Price"]
+
+# Train-test split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Feature scaling
+scaler = StandardScaler()
+X_train = scaler.fit_transform(X_train)
+X_test = scaler.transform(X_test)
+```
+
+### 2. Model Building and Evaluation
+
+```python
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+
+# Train Random Forest Regressor
+model = RandomForestRegressor(n_estimators=100, random_state=42)
+model.fit(X_train, y_train)
+
+# Predictions
+y_pred = model.predict(X_test)
+
+# Model Evaluation
+rmse = mean_squared_error(y_test, y_pred, squared=False)
+mae = mean_absolute_error(y_test, y_pred)
+r2 = r2_score(y_test, y_pred)
+
+print(f"RMSE: {rmse}")
+print(f"MAE: {mae}")
+print(f"R²: {r2}")
+```
+
 ---
 
 ## Conclusion
 
-- This project demonstrates the power of predictive modeling using the **Random Forest Regressor** for house price prediction. Its applications extend to industries like **finance** and **cybersecurity**, offering significant potential for data-driven decision-making. - Follow this guide to replicate the analysis and adapt the model to different datasets.
+- This project demonstrates the power of predictive modeling using the **Random Forest Regressor** for house price prediction. Its applications extend to industries like **finance** and **cybersecurity**, offering significant potential for data-driven decision-making. Follow this guide to replicate the analysis and adapt the model to different datasets.
 
 ---
 
