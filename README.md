@@ -118,7 +118,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 # Load dataset
-df = pd.read_csv("house_price_data.csv")
+df = pd.read_csv("Average-prices-Property-Type-2023-12.csv")
 
 # Preprocessing steps
 df.fillna(df.mean(), inplace=True)  # Handle missing data
