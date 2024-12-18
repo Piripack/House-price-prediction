@@ -163,7 +163,7 @@ print(f"R²: {r2}")
 
 ## Conclusion
 
-- This project demonstrates the power of predictive modeling using the **Random Forest Regressor** for house price prediction. Its applications extend to industries like **finance** and **cybersecurity**, offering significant potential for data-driven decision-making. Follow this guide to replicate the analysis and adapt the model to different datasets.
+This project demonstrates the power of predictive modeling using the **Random Forest Regressor** for house price prediction. Its applications extend to industries like **finance** and **cybersecurity**, offering significant potential for data-driven decision-making. Follow this guide to replicate the analysis and adapt the model to different datasets.
 
 ---
 
