@@ -115,10 +115,10 @@ pip install seaborn
 
 ## Conclusion
 
-This project highlights the power of predictive modeling and the versatility of the **Random Forest Regressor** in predicting house prices, as well as its potential applications in industries like **finance** and **cybersecurity**. By following the steps outlined in this guide, you can replicate this analysis on different datasets, adapting the model to suit your own use cases.
+- This project highlights the power of predictive modeling and the versatility of the **Random Forest Regressor** in predicting house prices, as well as its potential applications in industries like **finance** and **cybersecurity**. By following the steps outlined in - this guide, you can replicate this analysis on different datasets, adapting the model to suit your own use cases.
 
 ---
 
 ## Connect with Me
 
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/awmr/) to discuss **data analytics**, **machine learning**, or any exciting topics in the world of **data science**!
+- Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/awmr/) to discuss **data analytics**, **machine learning**, or any exciting topics in the world of **data science**!
